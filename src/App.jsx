@@ -92,7 +92,7 @@ function App() {
         })):''}
       </select>
       {selectedCountry && selectedState &&selectedCity ? (
-        <div>You Selected {selectedCity}, {selectedState}, {selectedCountry}</div>
+        <div>You selected {selectedCity}, {selectedState}, {selectedCountry}</div>
       ):''}
     </div>
   )
